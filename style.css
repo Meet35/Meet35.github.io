@@ -1,0 +1,189 @@
+
+
+.login{
+    margin-left: center;
+    margin: center;
+    text-align: center;
+    vertical-align: 50px;
+    /* /* width: 100px; */
+    height: 100px; 
+    margin-top: 250px;
+    background-size: cover ;
+
+}
+
+
+.email{
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    text-size-adjust: 10px;
+    letter-spacing: 2px;
+    line-height: 1;
+    display: inline-block;
+}
+
+
+.email ::placeholder{
+    opacity: 0.4;
+}
+
+
+.password[type=password]{
+    padding: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    line-height: 1;
+    display: inline-block;
+    width: 200px;
+}
+
+.password[type=password]::placeholder{
+    opacity: 0.4;
+}
+
+
+.password[type=password]:focus{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightblue;
+}
+
+
+.background{
+    background-color: azure;
+
+}
+
+.loginbtn{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1db954;
+    text-align: center;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid transparent;
+    transition-duration: 0.4s;
+    transition-duration: 0.5s;
+    width: 200px;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-left: 50px;
+}
+
+.loginbtn:hover{
+    background-color: #0df059;
+    color: #fff;
+}
+
+
+.checkbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.container {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+  }
+
+
+.container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.container:hover input ~ .checkbox{
+    background-color: #386848;
+}
+
+.container input:checked ~ .checkbox {
+    background-color: #2196F3;
+  }
+
+  .checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .container input:checked ~ .checkbox:after {
+    display: block;
+  }
+
+
+.checkbox:checked ~ .checkmark{
+    background-color: #0df059;
+    color: #0df059;
+}
+
+.checkbox:hover {
+    color: #0df059;
+}
+
+.checkbox input{
+    background-color: #0df059;
+}
+
+.checkbox input:checked{
+    background-color: #0df059;
+}
+
+
+
+
+.forgot{
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 70px;
+    margin-left: 1000px;
+    position: static;
+    align-items: center;
+    text-decoration: none;
+}
+
+.a:link{
+    text-decoration: double;
+}
+
+.a:visited{
+    text-decoration: aqua;
+}
+
+.simple{
+    text-align: center;
+}
+
+.sign{
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 2px;
+    margin-left: 350px;
+    position: static;
+    align-items: center;
+    text-decoration: none;
+}
+
+.admin-login{
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 7px;
+    margin-left: 350px;
+    text-decoration: none;
+}
