@@ -1,20 +1,38 @@
 <html>
     <head>
         <title> Admin </title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-        Hey admin
-        <form method="post" action="adminhome.html">
+    <body class="background">
+    <img src="logo.png" class="logo">
+    <div class="logo"><b>Music for Everyone</b></div>
+        <form method="get" action="adminhome.html">
+        <table>
+        <tbody>
+        <tr>
+        <td>
             <div>
-                <input type="email" placeholder="Enter Email">
+                <input type="email" placeholder="Enter Email" class="email">
             </div>
+            </td>
+            </tr>
+        <tr>
+        <td>
             <div>
-                <input type="password" placeholder="Enter Password">
+                <input type="password" placeholder="Enter Password" class="email">
             </div>
+            </td>
+        </tr>
+        <tr>
+        <td>
             <div>
-                <button>Log In</button>
+                <button class="loginbtn">Log In</button>
             </div>
+            </td>
+        </tr>
+        </tbody>
+        </table>
         </form>
     </body>
 </html>
