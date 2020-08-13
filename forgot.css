@@ -1,0 +1,111 @@
+input{
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+
+
+.passreset{
+    font-size: 20px;
+    /* top: 50%;
+left: 50%;
+margin-top: -50px;
+margin-left: 100px; */
+text-align: center;
+color: chocolate;
+}
+
+.emailforgot{
+  font-size: 20px;
+  /* top: 50%;
+left: 50%;
+margin-top: -50px;
+margin-left: 100px; */
+text-align: center;
+color: chocolate;
+}
+
+.logo{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin-left: 700px;
+    text-decoration: solid;
+    font-size: 30px;
+    color: #2196F3;
+}
+
+
+.background{
+    background-color: azure;
+
+}
+
+
+.email{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50%;
+    width: 200px;
+    text-size-adjust: 10px;
+    letter-spacing: 2px;
+    line-height: 1;
+    display: inline-block;
+}
+
+
+table{
+    position: relative;
+  top: 50%;
+  left: 35%;
+  margin-top: -50px;
+
+}
+
+
+
+.loginbtn{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1db954;
+    text-align: center;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid transparent;
+    transition-duration: 0.4s;
+    transition-duration: 0.5s;
+    width: 200px;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-left: 200px;
+}
+
+.loginbtn:hover{
+    background-color: #0df059;
+    color: #fff;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #111;
+}
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #818181;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(31, 34, 39);
+  }
+

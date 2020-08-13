@@ -215,7 +215,7 @@ input{
     z-index: 1; 
     top: 0;
     left: 0;
-    margin-top: 54px;
+    margin-top: 64px;
     background-color: #111;
     overflow-x: hidden;
     padding-top: 40px;
@@ -243,4 +243,26 @@ input{
   audio{
     margin: 50%;
     margin-top: 50%;
+  }
+
+
+
+  .passreset{
+      font-size: 20px;
+      /* top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: 100px; */
+  text-align: center;
+  color: chocolate;
+  }
+
+  .emailforgot{
+    font-size: 20px;
+    /* top: 50%;
+left: 50%;
+margin-top: -50px;
+margin-left: 100px; */
+text-align: center;
+color: chocolate;
   }
